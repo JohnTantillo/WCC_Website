@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: white;
+}
+
+body h1 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1751ce;
+    border-radius: 1px;
+}
+
+.navbar a {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.yt iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 75%;
+    border-radius: 2px;
+    border-color: #313236;
+}
+
+.center {
+    text-align: center;
+}
+
+.parent {
+    display: inline-block;
+}
+
+.parent a {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.parent:hover > ul {
+    display:block;
+    position:absolute;
+}
+
+.child {
+    display: none;
+}
+
+.child li {
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    border: 1px outset #1751ce;
+    z-index: 1;
+    line-height: 30px;
+    width:100%;
+}
+
+.child li a {
+    width: 80%;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px; 
+    min-width:10em;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+    margin-left:1px;
+}
+
+.navbar li:hover {
+    background-color: #2b6eff;
+}
+
+.parent li:hover {
+    background-color: #F0F0F0;
+}
+
+.expand {
+    font-size:13px;
+    float:right;
+    margin-right:5px;
+}
+
+/* Form Style Options */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #1751ce;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #2b6eff;
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+    background-color: white;
+}
+
+.container-left {
+    float: left;
+    margin-left: 25px;
+    width: 50%;
+    height: 500px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 5px outset #1751ce
+}
+
+.container-right {
+    float: right;
+    margin-top: 10%;
+    width: 39%;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid black;
+}
+
+.container-right p {
+    font-family: inherit;
+    font-size: 17px;  
+}
+
+.container-right p img {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 5%;  
+}
+
+.container-left-about-us {
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.container-right-about-us {
+    float: right;
+    width: 39%;
+    padding: 20px;
+}
+
+.container-right-about-us img {
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border-style: outset;
+    border-color:#1751ce;
+    border-width: 5px;
+    border-radius: 2px;
+}
+
+.container li {
+    margin-left: 5%;
+}
